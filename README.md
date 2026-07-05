@@ -19,12 +19,12 @@ The final model is saved as a reusable pipeline and is connected to a Streamlit 
 ---
 # The main beneficiaries are:
 
-Agricultural analysts — they can study yield patterns and compare regions.
-Government planners and decision-makers — they can identify governorates or years that may need more attention.
-Researchers and universities — they can use the project for agricultural and machine-learning studies.
-Data scientists and developers — they can reuse the model, dashboard, and API.
-Agricultural organisations — they can use the results to support monitoring and planning.
-Farmers indirectly — they may benefit from better decisions, but the model does not predict at individual farm level. 
+1. Agricultural analysts — they can study yield patterns and compare regions.
+2. Government planners and decision-makers — they can identify governorates or years that may need more attention.
+3. Researchers and universities — they can use the project for agricultural and machine-learning studies.
+4. Data scientists and developers — they can reuse the model, dashboard, and API.
+5. Agricultural organisations — they can use the results to support monitoring and planning.
+6. Farmers indirectly — they may benefit from better decisions, but the model does not predict at individual farm level. 
 
 # 2. Project architecture
 
