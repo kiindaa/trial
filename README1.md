@@ -11,7 +11,18 @@ Use this **25-minute presentation plan**, then keep **5 minutes for questions**.
 
 > The target combines durum wheat, soft wheat, and barley. The prediction unit is quintals per hectare, written as qx/ha. One quintal is 100 kilograms.
 
-> The problem is that cereal yield changes between governorates and years because of rainfall, temperature, vegetation, soil, regional conditions, and previous agricultural performance. A national average can also hide regional difficulties.
+> Cereal yield changes between governorates and years because of rainfall, temperature, vegetation, soil conditions, regional differences, and previous agricultural performance. A national average can also hide local problems.
+> Why this matters
+
+These differences can make food planning and agricultural support more difficult.
+
+> Project value
+
+The project supports food-planning and resource-allocation decisions by helping identify governorates and years that may have lower cereal yield or need more attention.
+
+> introduce the solution
+
+The solution is an end-to-end machine-learning system that combines agricultural and environmental data, predicts yield at governorate level, and presents the results through a dashboard and API.
 
 > The main beneficiaries are agricultural analysts, government planners, researchers, agricultural organisations, and decision-makers. Farmers may benefit indirectly through better regional planning.
 
