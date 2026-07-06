@@ -36,7 +36,30 @@ The solution is an end-to-end machine-learning system that combines agricultural
 * decision-support limitation.
 
 ---
+## Technology stack
 
+| Technology | Purpose in the project |
+|---|---|
+| Python | Main programming language used for data preparation, modelling, testing, the dashboard, and the API |
+| pandas | Reads, cleans, sorts, groups, and analyses the governorate-year dataset |
+| NumPy | Supports numerical calculations and missing values |
+| scikit-learn | Provides preprocessing, pipelines, regression models, validation, and evaluation metrics |
+| ExtraTrees Regressor | Selected machine-learning model used to predict cereal yield |
+| XGBoost | Candidate boosting model used during model comparison |
+| LightGBM | Candidate boosting model and experimental blend component |
+| Joblib | Saves and reloads the complete preprocessing and ExtraTrees pipeline |
+| Jupyter Notebook / Google Colab | Used for dataset construction, model comparison, analysis, and report figures |
+| Matplotlib | Creates static charts and report figures |
+| Plotly | Creates interactive charts in the Streamlit dashboard |
+| Streamlit | Provides the interactive dashboard for exploring results and predictions |
+| FastAPI | Provides the REST API for accessing model information and predictions |
+| Uvicorn | Runs the FastAPI application locally |
+| Pydantic | Validates the structure of API requests |
+| JSON | Stores readable model metadata and is used for API requests and responses |
+| pytest | Runs automated unit and integration tests |
+| HTTPX / FastAPI TestClient | Tests the API endpoints and prediction responses |
+| Git | Tracks changes to the source code and project files |
+| GitHub | Hosts the repository and supports version control and collaboration |
 ## 1:30–3:00 — Dataset and data sources
 
 ### Say
@@ -176,7 +199,8 @@ CSV
 
 > RMSE also measures error, but it gives more importance to large mistakes.
 
-> R² shows how well the model represents the differences between low-yield and high-yield observations. It does not mean that every prediction is 75.8% correct.
+> R² shows how well the model can explain why some yields are low and others are high. An R² of 0.758 means the model explains about 75.8% of the differences in yield, but it does not mean every prediction is 75.8% correct.
+
 
 ### Why this ExtraTrees version?
 
